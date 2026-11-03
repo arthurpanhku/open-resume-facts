@@ -1,5 +1,7 @@
 # resume-facts
 
+*中文 · [English](README.en.md)*
+
 > 用 Claude 或 Codex 管理自己的求职简历。
 > 一句话：**事实源是唯一长期资产，简历是一次性产物。**
 
@@ -110,9 +112,10 @@ AI：1. 读 facts.yaml 和 rules.yaml，再读 JD
 ## 仓库里有什么
 
 ```
-README.md    # 本文件
-SKILL.md     # 方法本体，给 Claude / Codex 读
-LICENSE      # MIT
+README.md       # 本文件
+README.en.md    # English version
+SKILL.md        # 方法本体，给 Claude / Codex 读
+LICENSE         # MIT
 ```
 
 **仓库里刻意不含 `lint.py` 和 `build_cv.py`。**
