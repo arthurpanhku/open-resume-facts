@@ -35,16 +35,18 @@
 ### Claude Code
 
 ```bash
-git clone <this-repo> ~/.claude/skills/resume-facts
+git clone https://github.com/arthurpanhku/open-resume-facts ~/.claude/skills/resume-facts
 ```
 
 或只给当前项目用：
 
 ```bash
-git clone <this-repo> .claude/skills/resume-facts
+git clone https://github.com/arthurpanhku/open-resume-facts .claude/skills/resume-facts
 ```
 
 之后在会话里说"帮我建个简历库"，或直接 `/resume-facts`。
+
+> 注意：仓库名是 `open-resume-facts`，但**安装目录必须叫 `resume-facts`**（要和 `SKILL.md` 里 frontmatter 的 `name` 一致）。上面的 clone 命令已经处理了这一点。
 
 ### claude.ai
 
@@ -110,6 +112,7 @@ AI：1. 读 facts.yaml 和 rules.yaml，再读 JD
 ```
 README.md    # 本文件
 SKILL.md     # 方法本体，给 Claude / Codex 读
+LICENSE      # MIT
 ```
 
 **仓库里刻意不含 `lint.py` 和 `build_cv.py`。**
@@ -121,4 +124,4 @@ SKILL.md     # 方法本体，给 Claude / Codex 读
 
 ## 许可
 
-建议 MIT；发布前请自行添加 `LICENSE` 文件。
+MIT，见 [LICENSE](LICENSE)。
