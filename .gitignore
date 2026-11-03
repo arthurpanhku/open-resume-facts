@@ -1,0 +1,7 @@
+# 本仓库只发布方法本体（SKILL.md）和说明（README.md）。
+# 之前试写的脚本草稿留在本地，不进发布范围。
+.drafts/
+
+.DS_Store
+__pycache__/
+*.pyc
